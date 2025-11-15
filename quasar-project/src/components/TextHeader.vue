@@ -5,5 +5,4 @@
 </template>
 <script setup>
 defineProps(['textheader'])
-// console.log(post);
 </script>
