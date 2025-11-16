@@ -7,14 +7,15 @@ export const useinfocomponentget = defineStore('infoget', {
       { id: 1, text: 'my name is : ', plac: 'how to write' },
       { id: 2, text: 'tasck description : ', plac: 'write tasck' },
     ],
+    
   }),
   getters: {
-    doubleCount: (state) => state.counter * 2,
+    // doubleCount: (state) => state.counter * 2,
   },
 
   actions: {
-    increment() {
-      this.counter++
-    },
+    // increment() {
+    //   this.counter++
+    // },
   },
 })
