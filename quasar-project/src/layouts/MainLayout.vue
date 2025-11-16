@@ -8,3 +8,6 @@
 import GetInfo from 'src/components/GetInfo.vue'
 import TextHeader from 'src/components/TextHeader.vue'
 </script>
+<style lang="sass" scoped>
+
+</style>
