@@ -1,6 +1,6 @@
 <template>
   <section>
-    <TextHeader textheader='todo list' />
+    <TextHeader textheader="todo list" />
     <GetInfo />
     <AddBtnList />
     <ShowTasck />
@@ -12,14 +12,9 @@ import TextHeader from 'src/components/TextHeader.vue'
 import AddBtnList from 'src/components/AddBtnList.vue'
 import ShowTasck from 'src/components/ShowTasck.vue'
 
-import {useinfocomponentget} from '../stores/InfoGet.js'
+import { useinfocomponentget } from '../stores/InfoGet.js'
 const useget = useinfocomponentget()
 
-console.log(useget.tasck);
-
-//  const {useinfo} = useinfocomponentget()
-//  console.log(useinfo.count);
+console.log(useget.tasck)
 </script>
-<style lang="sass" scoped>
-
-</style>
+<style lang="sass" scoped></style>

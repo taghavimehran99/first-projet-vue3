@@ -8,23 +8,16 @@ export const useinfocomponentget = defineStore('infoget', {
       { id: 2, text: 'tasck description : ', plac: 'write tasck', value: '' },
     ],
     count: 10,
-    list:[
-      // {id:1 , titi:'ssss'},
-      // {id:2 , titi:'dddd'}
-    ]
+    list: [],
   }),
   getters: {
-    tasck: (state)=>{
-      return state.infoinputs[0].value +" " +  state.infoinputs[1].value 
-    }
-    // state.infoinputs[0].value & state.infoinputs[1].value
-    // return state.count * 10
-    // doubleCount: (state) => state.counter * 2,
+    tasck: (state) => {
+      return state.infoinputs[0].value + ' ' + state.infoinputs[1].value
+    },
   },
-
   actions: {
-    // increment() {
-    //   this.counter++
-    // },
+    BuildRow(state) {
+      state.list = this.tasck
+    },
   },
 })
