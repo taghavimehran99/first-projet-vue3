@@ -6,4 +6,3 @@
 <script setup>
 defineProps(['textheader'])
 </script>
-<style lang="scss" module scoped></style>

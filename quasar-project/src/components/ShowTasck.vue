@@ -9,4 +9,3 @@
 import { useinfocomponentget } from '../stores/InfoGet.js'
 const BuildLists = useinfocomponentget()
 </script>
-<style lang="scss" scoped></style>

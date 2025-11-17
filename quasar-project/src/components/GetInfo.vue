@@ -10,4 +10,3 @@
 import { useinfocomponentget } from '../stores/InfoGet.js'
 const useinfos = useinfocomponentget()
 </script>
-<style lang="scss" scoped></style>
