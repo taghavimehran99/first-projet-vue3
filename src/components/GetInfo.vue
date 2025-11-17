@@ -10,3 +10,10 @@
 import { useinfocomponentget } from '../stores/InfoGet.js'
 const useinfos = useinfocomponentget()
 </script>
+<style lang="scss" scoped>
+label,
+input {
+  font-weight: 700;
+  margin: 10px;
+}
+</style>

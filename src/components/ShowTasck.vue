@@ -9,3 +9,9 @@
 import { useinfocomponentget } from '../stores/InfoGet.js'
 const BuildLists = useinfocomponentget()
 </script>
+<style lang="scss" scoped>
+h4 {
+  color: green;
+  width: 250px;
+}
+</style>
