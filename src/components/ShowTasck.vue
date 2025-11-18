@@ -10,8 +10,9 @@ import { useinfocomponentget } from '../stores/InfoGet.js'
 const BuildLists = useinfocomponentget()
 </script>
 <style lang="scss" scoped>
+@import '../css/quasar.variables.scss';
 h4 {
-  color: green;
+  color: $GreenTitel;
   width: 250px;
 }
 </style>

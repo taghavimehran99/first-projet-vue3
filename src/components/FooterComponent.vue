@@ -5,7 +5,9 @@
 defineProps(['FooterText'])
 </script>
 <style lang="scss" scoped>
+@import '../css/quasar.variables.scss';
+
 p {
-  color: #1f911f;
+  color: $GreenTitel;
 }
 </style>

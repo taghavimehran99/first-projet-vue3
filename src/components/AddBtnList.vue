@@ -11,16 +11,18 @@ function BuildAndDelete() {
 }
 </script>
 <style lang="scss" scoped>
+@import '../css/quasar.variables.scss';
+
 button {
-  background-color: green;
+  background-color: $GreenTitel;
   border: 0;
   border-radius: 20px;
-  color: white;
+  color: $withe;
   padding: 5px 20px;
   margin: 10px;
 }
 button:hover {
-  color: green;
-  background-color: white;
+  color: $GreenTitel;
+  background-color: $withe;
 }
 </style>
