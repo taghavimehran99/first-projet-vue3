@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h3>{{ textheader }}</h3>
+    <p class="text-weight-regular text-h4 q-my-md">{{ textheader }}</p>
   </section>
 </template>
 <script setup>
