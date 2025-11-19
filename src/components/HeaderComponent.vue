@@ -1,5 +1,5 @@
 <template>
-  <p class="text-weight-medium text-h3 q-my-md">{{ HeaderText }}</p>
+  <p class="text-header text-weight-medium text-h3 q-my-md">{{ HeaderText }}</p>
 </template>
 <script setup>
 defineProps(['HeaderText'])
@@ -7,7 +7,7 @@ defineProps(['HeaderText'])
 <style lang="scss" scoped>
 @import '../css/quasar.variables.scss';
 
-p {
+.text-header {
   color: $GreenTitel;
 }
 </style>

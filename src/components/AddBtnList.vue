@@ -1,5 +1,5 @@
 <template>
-  <button @click="BuildAndDelete">Add To List</button>
+  <button class="btn-creat-delete" @click="BuildAndDelete">Add To List</button>
 </template>
 <script setup>
 import { useinfocomponentget } from 'src/stores/InfoGet'
@@ -13,7 +13,7 @@ function BuildAndDelete() {
 <style lang="scss" scoped>
 @import '../css/quasar.variables.scss';
 
-button {
+.btn-creat-delete {
   background-color: $GreenTitel;
   border: 0;
   border-radius: 20px;
@@ -21,7 +21,7 @@ button {
   padding: 5px 20px;
   margin: 10px;
 }
-button:hover {
+.btn-creat-delete:hover {
   color: $GreenTitel;
   background-color: $withe;
 }

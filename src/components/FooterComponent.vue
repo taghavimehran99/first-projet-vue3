@@ -1,5 +1,5 @@
 <template>
-  <p class="text-weight-medium text-h3 q-my-md">{{ FooterText }}</p>
+  <p class="text-footer text-weight-medium text-h3 q-my-md">{{ FooterText }}</p>
 </template>
 <script setup>
 defineProps(['FooterText'])
@@ -7,7 +7,7 @@ defineProps(['FooterText'])
 <style lang="scss" scoped>
 @import '../css/quasar.variables.scss';
 
-p {
+.text-footer {
   color: $GreenTitel;
 }
 </style>
