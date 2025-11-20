@@ -9,7 +9,6 @@ export const useinfocomponentget = defineStore('infoget', {
     ],
     count: 10,
     list: [],
-
     InfoBtnRouters: [
       { id: 1, text: 'Go To Route Home', function: '/', class: 'btn-router' },
       { id: 2, text: 'Go To Route Detail', function: '/HomeDeatal', class: 'btn-router' },
