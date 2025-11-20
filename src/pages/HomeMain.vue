@@ -10,4 +10,3 @@ import TextHeader from 'src/components/TitelComponent.vue'
 import AddBtnList from 'src/components/AddBtnList.vue'
 import ShowTasck from 'src/components/ShowTasck.vue'
 </script>
-<style lang="scss" scoped></style>
