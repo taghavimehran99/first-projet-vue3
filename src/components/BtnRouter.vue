@@ -6,8 +6,6 @@
   </div>
 </template>
 <script setup>
-defineProps(['TextBtnRouter'])
-
 import { useinfocomponentget } from '../stores/InfoGet.js'
 const DataBtn = useinfocomponentget()
 </script>
