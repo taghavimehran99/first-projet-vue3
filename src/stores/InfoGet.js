@@ -1,4 +1,5 @@
 import { defineStore } from 'pinia'
+import { api } from 'src/boot/axios.js'
 export const useinfocomponentget = defineStore('infoget', {
   state: () => ({
     how: '',
@@ -14,6 +15,7 @@ export const useinfocomponentget = defineStore('infoget', {
       { id: 2, text: 'Go To Route Detail', function: '/HomeDeatal', class: 'btn-router' },
       { id: 3, text: 'Go To Route Get Api', function: '/GetApi', class: 'btn-router' },
     ],
+    InfoCard: [],
   }),
   getters: {
     tasck: (state) => {
@@ -21,8 +23,13 @@ export const useinfocomponentget = defineStore('infoget', {
     },
   },
   actions: {
-    BuildRow(state) {
-      state.list = this.tasck
+    async GetInfoCard() {
+      try {
+        const res = await api.get('products')
+        this.InfoCard = res.data
+      } catch (error) {
+        console.log(error)
+      }
     },
   },
 })
