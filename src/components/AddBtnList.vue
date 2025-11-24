@@ -6,8 +6,8 @@ import { useinfocomponentget } from 'src/stores/InfoGet'
 const addlist = useinfocomponentget()
 function BuildAndDelete() {
   addlist.list.push(addlist.tasks)
-  addlist.infoinputs[0].value = []
-  addlist.infoinputs[1].value = []
+  addlist.infoinputs[0].value = ''
+  addlist.infoinputs[1].value = ''
 }
 </script>
 <style lang="scss" scoped>
