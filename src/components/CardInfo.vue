@@ -6,12 +6,15 @@
       </div>
       <div class="text-subtitle2 q-mt-xl">{{ useinformation.InfoCard[0].description }}</div>
     </q-card-section>
-    <div v-else>loding......</div>
+    <div v-else>
+      <LodingComponent />
+    </div>
   </q-card>
 </template>
 <script setup>
 import { useinfocomponentget } from '../stores/InfoGet.js'
 import { onMounted } from 'vue'
+import LodingComponent from './LodingComponent.vue'
 const useinformation = useinfocomponentget()
 onMounted(() => {
   useinformation.GetInfoCard()
