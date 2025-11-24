@@ -1,7 +1,7 @@
 <template>
   <section>
     <div v-for="Build in BuildLists.list" :key="Build.id">
-      <h4 class="show-contain-tasck">{{ Build }}</h4>
+      <h4 class="show-contain-task">{{ Build }}</h4>
     </div>
   </section>
 </template>
@@ -11,7 +11,7 @@ const BuildLists = useinfocomponentget()
 </script>
 <style lang="scss" scoped>
 @import '../css/quasar.variables.scss';
-.show-contain-tasck {
+.show-contain-task {
   color: $GreenTitel;
   width: 250px;
 }

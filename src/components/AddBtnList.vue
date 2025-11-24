@@ -5,7 +5,7 @@
 import { useinfocomponentget } from 'src/stores/InfoGet'
 const addlist = useinfocomponentget()
 function BuildAndDelete() {
-  addlist.list.push(addlist.tasck)
+  addlist.list.push(addlist.tasks)
   addlist.infoinputs[0].value = []
   addlist.infoinputs[1].value = []
 }

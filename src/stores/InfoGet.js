@@ -4,9 +4,8 @@ export const useinfocomponentget = defineStore('infoget', {
   state: () => ({
     infoinputs: [
       { id: 1, text: 'my name is : ', plac: 'how to write', value: '' },
-      { id: 2, text: 'tasck explanation : ', plac: 'write tasck', value: '' },
+      { id: 2, text: 'task explanation : ', plac: 'write task', value: '' },
     ],
-    count: 10,
     list: [],
     InfoBtnRouters: [
       { id: 1, text: 'Go To Route Home', function: '/', class: 'btn-router' },
@@ -16,7 +15,7 @@ export const useinfocomponentget = defineStore('infoget', {
     InfoCard: [],
   }),
   getters: {
-    tasck: (state) => {
+    tasks: (state) => {
       return state.infoinputs[0].value + ' ' + state.infoinputs[1].value
     },
   },
