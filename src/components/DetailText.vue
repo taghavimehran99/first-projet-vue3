@@ -4,11 +4,3 @@
     Detail and in page Home Detail
   </h5>
 </template>
-<script setup></script>
-<style lang="scss" scoped>
-@import '../css/quasar.variables.scss';
-
-.text-footer {
-  color: $warning;
-}
-</style>
