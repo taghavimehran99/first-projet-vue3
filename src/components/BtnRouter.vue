@@ -6,7 +6,7 @@
   </div>
 </template>
 <script setup>
-import { buttons } from '../config/Fetchbuttons.js'
+import { buttons } from '../config/FetchButtons.js'
 </script>
 <style lang="scss" scoped>
 @import '../css/quasar.variables.scss';
