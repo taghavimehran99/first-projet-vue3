@@ -2,8 +2,6 @@ import { defineStore } from 'pinia'
 import { api } from 'src/boot/axios.js'
 export const useinfocomponentget = defineStore('infoget', {
   state: () => ({
-    how: '',
-    tascks: '',
     infoinputs: [
       { id: 1, text: 'my name is : ', plac: 'how to write', value: '' },
       { id: 2, text: 'tasck explanation : ', plac: 'write tasck', value: '' },
