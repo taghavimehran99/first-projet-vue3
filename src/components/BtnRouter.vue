@@ -1,7 +1,7 @@
 <template>
-  <div class="grop-btn-router" v-for="values in buttons" :key="values.id">
-    <button :class="values.class" @click="$router.push(values.path)">
-      {{ values.text }}
+  <div class="grop-btn-router" v-for="items in buttons" :key="items.id">
+    <button :class="values.class" @click="$router.push(items.path)">
+      {{ items.text }}
     </button>
   </div>
 </template>
