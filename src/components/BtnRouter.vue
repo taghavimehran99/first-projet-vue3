@@ -1,13 +1,12 @@
 <template>
-  <div class="grop-btn-router" v-for="values in DataBtn.InfoBtnRouters" :key="values.id">
+  <div class="grop-btn-router" v-for="values in buttons" :key="values.id">
     <button :class="values.class" @click="$router.push(values.function)">
       {{ values.text }}
     </button>
   </div>
 </template>
 <script setup>
-import { useinfocomponentget } from '../stores/InfoGet.js'
-const DataBtn = useinfocomponentget()
+import { buttons } from '../config/Fetchbuttons.js'
 </script>
 <style lang="scss" scoped>
 @import '../css/quasar.variables.scss';
