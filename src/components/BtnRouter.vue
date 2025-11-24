@@ -1,6 +1,6 @@
 <template>
   <div class="grop-btn-router" v-for="values in buttons" :key="values.id">
-    <button :class="values.class" @click="$router.push(values.function)">
+    <button :class="values.class" @click="$router.push(values.path)">
       {{ values.text }}
     </button>
   </div>
